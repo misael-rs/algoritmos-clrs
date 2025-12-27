@@ -11,4 +11,4 @@ O **Insertion Sort** é um algoritmo eficiente para ordenar um número pequeno d
 * **Melhor caso:** $O(n)$ (quando o vetor já está ordenado).
 
 ## Desafios da Implementação em C
-O pseudocódigo do CLRS utiliza índices começando em 1 (A[1..n]). Em C, os vetores começam em 0, então ajustei o laço `for` para iniciar em `j = 1` e as comparações para considerar `i >= 0`.
+O pseudocódigo do CLRS utiliza índices começando em 1 (A[1..n]). Em C, os vetores começam em 0, então ajustei o laço `for` para iniciar em `i = 1` e as comparações para considerar `j >= 0`.
